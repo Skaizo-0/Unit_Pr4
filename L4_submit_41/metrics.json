@@ -1,0 +1,33 @@
+{
+  "before_median_ms": 1.1022,
+  "after_median_ms": 0.0103,
+  "speedup": 107.00970873786409,
+  "reduction_percent": 99.0655053529305,
+  "iqr_method": "inclusive",
+  "per_run": {
+    "before_1.csv": {
+      "median_ms": 1.1038000000000001,
+      "iqr_ms": 0.034050000000000136
+    },
+    "before_2.csv": {
+      "median_ms": 1.1022,
+      "iqr_ms": 0.030649999999999844
+    },
+    "before_3.csv": {
+      "median_ms": 1.0968499999999999,
+      "iqr_ms": 0.0334500000000002
+    },
+    "after_1.csv": {
+      "median_ms": 0.0104,
+      "iqr_ms": 0.004425
+    },
+    "after_2.csv": {
+      "median_ms": 0.0103,
+      "iqr_ms": 0.005424999999999999
+    },
+    "after_3.csv": {
+      "median_ms": 0.0088,
+      "iqr_ms": 0.0034249999999999992
+    }
+  }
+}

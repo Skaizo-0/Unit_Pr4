@@ -1,0 +1,10 @@
+# bad: [433b388f3e2c9b511d19a9867221d8f5d7fbd9f2] Describe batch result validation
+# good: [23111652a05c9acd479183f3425ddb0b3db657d9] Create Unity record lookup application
+git bisect start 'reported-bad' 'known-good'
+# good: [c199b8d59fd6c43a8c9e7d7aa76eb7109263bc4a] Document supported identifier range
+git bisect good c199b8d59fd6c43a8c9e7d7aa76eb7109263bc4a
+# bad: [844c635252ea2d91aa40d65aa00d6a71c3267f87] Label the lookup exercise
+git bisect bad 844c635252ea2d91aa40d65aa00d6a71c3267f87
+# bad: [8ebb0ea8552a74cbe6e1996656ad335f18957678] Use records directly in query resolution
+git bisect bad 8ebb0ea8552a74cbe6e1996656ad335f18957678
+# first bad commit: [8ebb0ea8552a74cbe6e1996656ad335f18957678] Use records directly in query resolution

@@ -1,0 +1,11 @@
+{
+    "records": 4096,
+    "queries": 1024,
+    "checksum": 6168064,
+    "inspections": 2059776,
+    "budget": 8192,
+    "seconds_informational": 0.0125788,
+    "verdict": "bad",
+    "run_token": "1f856a42ca514b21898c2b8c05f63580",
+    "commit": "433b388f3e2c9b511d19a9867221d8f5d7fbd9f2"
+}
